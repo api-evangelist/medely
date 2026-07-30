@@ -1,8 +1,18 @@
 aid: medely
 name: Medely
-description: Medely is a company surfaced as a portfolio company of general-catalyst, wing-venture-capital
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Medely is a healthcare workforce orchestration platform and staffing
+  marketplace that connects healthcare facilities with a network of qualified
+  nurses and allied health professionals. What began as a marketplace to match
+  facilities with per-diem talent has grown into a full workforce management
+  platform, helping hospitals, surgery centers, skilled nursing facilities, and
+  other providers fill open and per-diem shifts, support their core clinical
+  teams, and maintain high-quality patient care. Medely offers credentialing,
+  scheduling, and flexible workforce management tools, and holds the Joint
+  Commission's Gold Seal of Approval for its staffing services. The company is
+  backed by General Catalyst and Wing Venture Capital. Medely does not currently
+  operate a public developer program or documented API; its GraphQL backend at
+  api.medely.com powers the first-party web and mobile applications only.
 url: https://raw.githubusercontent.com/api-evangelist/medely/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,11 +21,38 @@ x-backed-by:
 - wing-venture-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-notes: >-
+  No public API program found (2026-07-20). No developer portal
+  (developers.medely.com and docs.medely.com do not resolve; /developers and
+  /api return 404). A live GraphQL endpoint exists at api.medely.com/graphql but
+  it is an undocumented private app backend with no published schema or docs, so
+  it is not catalogued as a public API. No public OpenAPI/AsyncAPI/gRPC spec, no
+  SDKs/packages, no MCP server, no llms.txt, and no /.well-known documents were
+  found. No status page, trust center, or security.txt.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://images.prismic.io/medely/6596d0c3531ac2845a271f45_Meta-Image-medely-site-facility.png?auto=format,compress
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Healthcare
+- Staffing
+- Workforce Management
+- Marketplace
+- Nursing
+- Per-Diem
+- Health
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +62,22 @@ maintainers:
 common:
 - type: Website
   url: https://medely.com/
+- type: Blog
+  url: https://blog.medely.com
+- type: Support
+  url: https://help.medely.com
+- type: HelpCenter
+  url: https://help.medely.com
+- type: Login
+  url: https://medely.com/login
+- type: TermsOfService
+  url: https://medely.com/professional_terms
+- type: PrivacyPolicy
+  url: https://medely.com/privacy-policy
+- type: DomainSecurity
+  url: security/medely-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
