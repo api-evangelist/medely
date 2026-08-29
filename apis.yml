@@ -14,6 +14,8 @@ description: >-
   operate a public developer program or documented API; its GraphQL backend at
   api.medely.com powers the first-party web and mobile applications only.
 url: https://raw.githubusercontent.com/api-evangelist/medely/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
